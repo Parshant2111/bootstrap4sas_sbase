@@ -1,0 +1,55 @@
+body{
+	font-family: $primary-font;
+	font-weight: $regular-font;
+	color: $regular-color;
+}
+*{
+	outline: none !important;
+}
+a{
+	text-decoration:none;
+	transition:all 0.35s ease-in-out 0s;
+	color: $regular-color;	
+	&:hover{
+		text-decoration: none;
+	}
+}
+.text-hover:hover{
+	color: $theme-color;
+}
+.common-btn{
+	font-size: 14px;
+	text-transform: uppercase;
+	border:1px solid transparent;
+	background: $primary-bg;
+	color:#fff;
+	padding: 15px;
+	display: inline-block;
+
+	&:hover{
+		background:none;
+		border-color:$regular-color;
+		color: $regular-color;
+	}
+}
+.dark-blue form ::-webkit-input-placeholder {
+ color: #fff;
+  text-transform: uppercase;
+  opacity: 1.0;
+}
+.dark-blue form :-moz-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+  opacity: 1.0;
+}
+.dark-blue form ::-moz-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+  opacity: 1.0;
+}
+.dark-blue form :-ms-input-placeholder {
+ color: #fff;
+  text-transform: uppercase;
+  opacity: 1.0;
+
+}

@@ -1,0 +1,55 @@
+/*responsive*/
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #656565; }
+
+* {
+  outline: none !important; }
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.35s ease-in-out 0s;
+  transition: all 0.35s ease-in-out 0s;
+  color: #656565; }
+  a:hover {
+    text-decoration: none; }
+
+.text-hover:hover {
+  color: #6ab8ff; }
+
+.common-btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  background: #6ab8ff;
+  color: #fff;
+  padding: 15px;
+  display: inline-block; }
+  .common-btn:hover {
+    background: none;
+    border-color: #656565;
+    color: #656565; }
+
+.dark-blue form ::-webkit-input-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+  opacity: 1.0; }
+
+.dark-blue form :-moz-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+  opacity: 1.0; }
+
+.dark-blue form ::-moz-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+  opacity: 1.0; }
+
+.dark-blue form :-ms-input-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+  opacity: 1.0; }
+
+h1 {
+  color: red; }
